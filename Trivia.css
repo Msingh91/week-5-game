@@ -1,0 +1,8 @@
+.jumbotron, .panel {
+	background: rgba(100, 54, 54, 0.3); 
+	color:white;
+}
+
+#q1,#q2,#q3,#q4,#q5{
+	margin:10px;
+}

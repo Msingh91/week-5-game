@@ -1,0 +1,127 @@
+
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Super Fun Trivia! </title>
+
+  <!-- Bootstrap is used to make game look nicer -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">  
+
+  <link href="Trivia.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+
+<body>
+      <!-- Bootstrap container that will hold contents of site -->
+      <div class="container">
+      <div class="well jumbotron">
+        <div class="container">
+          <h1 class="text-center"> Super Fun Trivia! </h1>
+        
+          
+           <div class="text-center"><button class="btn btn-info btn-xs swag-button"><span class="glyphicon glyphicon-flash"></span> Swag!</button></div>
+
+           <div class ="text-center" id="timer"></div>
+
+
+      </div>
+      </div>
+  
+      <!-- Game sections to be held here -->
+      <div class="row">
+      <div class="col-md-12">
+
+      <!-- Panel that holds word to be guessed -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+
+        <h3 class="text-center panel-title"><strong>Answer the questions </strong><span class="glyphicon glyphicon-eye-open"></span</h3>
+        </div>
+      <div id="main-section">
+      <div class="panel-body">
+            <div class="text-center">
+            <h4 id="questionOne">
+              The rapper who claims his "daddy" is Brian "Birdman" Williams?
+            </h4>  
+            
+            <input type="radio" id= "q1" name="q1" value="n"> Mack Maine
+            <input type="radio" id= "q1" name="q1" value="n"> Drake
+            <input type="radio" id= "q1" name="q1" value="n"> Tyga
+            <input type="radio" id= "q1" name="q1" value="y">Lil Wayne
+<br>
+            <h4 id="questionTwo">
+              The rapper who has claimed to bring Auto-Tune back into music is?
+            </h4>  
+                  
+            <input type="radio" id= "q2" name="q2" value="n"> Drake
+            <input type="radio" id= "q2" name="q2" value="y"> T-Pain
+            <input type="radio" id= "q2" name="q2" value="n"> Kanye West
+            <input type="radio" id= "q2" name="q2" value="n"> Diddy
+<br>
+            <h4 id="questionThree">
+              White Rapper that made the song about Donald Trump?
+            </h4>  
+           
+            <input type="radio" id= "q3" name="q3" value="y"> Mac Miller
+            <input type="radio" id= "q3" name="q3" value="n"> Asher Roth
+            <input type="radio" id= "q3" name="q3" value="n"> Sam Adams
+            <input type="radio" id= "q3" name="q3" value="n"> Wale
+<br>
+            <h4 id="questionFour">
+              Which artist is not a part of the Young Money crew?
+            </h4>  
+            
+            <input type="radio" id= "q4" name="q4" value="n"> Gudda Gudda
+            <input type="radio" id= "q4" name="q4" value="y"> Omarion
+            <input type="radio" id= "q4" name="q4" value="n"> T-Streets
+            <input type="radio" id= "q4" name="q4" value="n"> Jae Millz
+<br>
+            <h4 id="questionFive">
+              Nipsey Hussle, Fashawn, Ya Boy, Snoop Dogg, Dom Kennedy.... These rappers rep which area?
+            </h4>  
+            
+            <input type="radio" id= "q5" name="q5" value="n"> East Coast
+            <input type="radio" id= "q5" name="q5" value="n"> Philly
+            <input type="radio" id= "q5" name="q5" value="n"> Down South
+            <input type="radio" id= "q5" name="q5" value="y"> West Coast
+<br> 
+<br>         
+            <div class="text-center"><button id="done" class="btn btn-info btn-md done-button">Done</button></div>
+
+            </div>
+
+      </div>
+      </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+        
+
+
+          
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>    
+  <script src="Trivia.js"></script>
+
+</body>
+
+</html>
